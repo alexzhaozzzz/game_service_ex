@@ -1,0 +1,49 @@
+{
+    "NodeList":[
+      {
+        "NodeId": "test_1",
+        "ListenAddr":"127.0.0.1:8801",
+        "MaxRpcParamLen": 409600,
+        "CompressBytesLen": 20480,
+        "Private": false,
+        "remark":"//以_打头的，表示只在本机进程，不对整个子网开发",
+        "ServiceList": ["WSService","WsGateService","TestService1","TestService2","TestService3","TestService4","TestService5","TestService6","TestService7","TestService8","TestService9","TestService10","HttpService","TestHttpService","TestTcpService","MyTcpService","TestService13"]
+      },
+      {
+        "NodeId": "test_2",
+        "ListenAddr":"127.0.0.1:8802",
+        "MaxRpcParamLen": 409600,
+        "CompressBytesLen": 20480,
+        "Private": false,
+        "remark":"//以_打头的，表示只在本机进程，不对整个子网开发",
+        "ServiceList": ["TestService7"]
+      },
+      {
+        "NodeId": "test_3",
+        "ListenAddr":"127.0.0.1:8803",
+        "MaxRpcParamLen": 409600,
+        "CompressBytesLen": 20480,
+        "Private": false,
+        "remark":"//以_打头的，表示只在本机进程，不对整个子网开发",
+        "ServiceList": ["TestService6","TestGinService"]
+      },
+      {
+        "NodeId": "test_4",
+        "ListenAddr":"127.0.0.1:8804",
+        "MaxRpcParamLen": 409600,
+        "CompressBytesLen": 20480,
+        "Private": false,
+        "remark":"//以_打头的，表示只在本机进程，不对整个子网开发",
+        "ServiceList": ["TestTemplateService1"]
+      },
+      {
+        "NodeId": "test_5",
+        "ListenAddr":"127.0.0.1:8805",
+        "MaxRpcParamLen": 409600,
+        "CompressBytesLen": 20480,
+        "Private": false,
+        "remark":"//以_打头的，表示只在本机进程，不对整个子网开发",
+        "ServiceList": ["TemplateService1:TemplateService","TemplateService2:TemplateService","TemplateService3:TemplateService"]
+      }
+    ]
+}
